@@ -3,8 +3,8 @@
 //   refreshes in the background so new versions appear on the next open.
 // - Data files (money/*.md, money/index.json): network-first, so edits made
 //   elsewhere (or on another device via GitHub) show up right away.
-const VERSION = 'v1';         // bump this on every deploy — it's the single source of truth
-const BUILT = '2026-09-28';   // human-readable release date
+const VERSION = 'v2';         // bump this on every deploy — it's the single source of truth
+const BUILT = '2026-09-29';   // human-readable release date
 const SHELL = `money-shell-${VERSION}`;
 const DATA = `money-data-${VERSION}`;
 
